@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34792791711A1700026E121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34792781711A1700026E121 /* UIKit.framework */; };
+		F347927B1711A1700026E121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F347927A1711A1700026E121 /* Foundation.framework */; };
+		F347927D1711A1700026E121 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F347927C1711A1700026E121 /* CoreGraphics.framework */; };
+		F34792831711A1700026E121 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F34792811711A1700026E121 /* InfoPlist.strings */; };
+		F34792851711A1700026E121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792841711A1700026E121 /* main.m */; };
+		F34792891711A1700026E121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792881711A1700026E121 /* AppDelegate.m */; };
+		F34792921711A1700026E121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792911711A1700026E121 /* ViewController.m */; };
+		F34792951711A1700026E121 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34792931711A1700026E121 /* ViewController.xib */; };
+		F34792AB1711A17C0026E121 /* UINavigationBarDefaultBack.png in Resources */ = {isa = PBXBuildFile; fileRef = F347929D1711A17C0026E121 /* UINavigationBarDefaultBack.png */; };
+		F34792AC1711A17C0026E121 /* UINavigationBarDefaultBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F347929E1711A17C0026E121 /* UINavigationBarDefaultBack@2x.png */; };
+		F34792AD1711A17C0026E121 /* UINavigationBarDefaultBackPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F347929F1711A17C0026E121 /* UINavigationBarDefaultBackPressed.png */; };
+		F34792AE1711A17C0026E121 /* UINavigationBarDefaultBackPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F34792A01711A17C0026E121 /* UINavigationBarDefaultBackPressed@2x.png */; };
+		F34792AF1711A17C0026E121 /* UINavigationBarSilverBack.png in Resources */ = {isa = PBXBuildFile; fileRef = F34792A11711A17C0026E121 /* UINavigationBarSilverBack.png */; };
+		F34792B01711A17C0026E121 /* UINavigationBarSilverBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F34792A21711A17C0026E121 /* UINavigationBarSilverBack@2x.png */; };
+		F34792B11711A17C0026E121 /* UINavigationBarSilverBackPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F34792A31711A17C0026E121 /* UINavigationBarSilverBackPressed.png */; };
+		F34792B21711A17C0026E121 /* UINavigationBarSilverBackPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F34792A41711A17C0026E121 /* UINavigationBarSilverBackPressed@2x.png */; };
+		F34792B31711A17C0026E121 /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792A61711A17C0026E121 /* SKNavigationController.m */; };
+		F34792B41711A17C0026E121 /* SKNavigationHistoryBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792A81711A17C0026E121 /* SKNavigationHistoryBar.m */; };
+		F34792B51711A17C0026E121 /* UIView+SKAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34792AA1711A17C0026E121 /* UIView+SKAnimate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F34792751711A1700026E121 /* SKNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34792781711A1700026E121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F347927A1711A1700026E121 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F347927C1711A1700026E121 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F34792801711A1700026E121 /* SKNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKNavigationController-Info.plist"; sourceTree = "<group>"; };
+		F34792821711A1700026E121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F34792841711A1700026E121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F34792861711A1700026E121 /* SKNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		F34792871711A1700026E121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F34792881711A1700026E121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F34792901711A1700026E121 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F34792911711A1700026E121 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F34792941711A1700026E121 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F347929D1711A17C0026E121 /* UINavigationBarDefaultBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBarDefaultBack.png; sourceTree = "<group>"; };
+		F347929E1711A17C0026E121 /* UINavigationBarDefaultBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarDefaultBack@2x.png"; sourceTree = "<group>"; };
+		F347929F1711A17C0026E121 /* UINavigationBarDefaultBackPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBarDefaultBackPressed.png; sourceTree = "<group>"; };
+		F34792A01711A17C0026E121 /* UINavigationBarDefaultBackPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarDefaultBackPressed@2x.png"; sourceTree = "<group>"; };
+		F34792A11711A17C0026E121 /* UINavigationBarSilverBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBarSilverBack.png; sourceTree = "<group>"; };
+		F34792A21711A17C0026E121 /* UINavigationBarSilverBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarSilverBack@2x.png"; sourceTree = "<group>"; };
+		F34792A31711A17C0026E121 /* UINavigationBarSilverBackPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBarSilverBackPressed.png; sourceTree = "<group>"; };
+		F34792A41711A17C0026E121 /* UINavigationBarSilverBackPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarSilverBackPressed@2x.png"; sourceTree = "<group>"; };
+		F34792A51711A17C0026E121 /* SKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNavigationController.h; sourceTree = "<group>"; };
+		F34792A61711A17C0026E121 /* SKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNavigationController.m; sourceTree = "<group>"; };
+		F34792A71711A17C0026E121 /* SKNavigationHistoryBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNavigationHistoryBar.h; sourceTree = "<group>"; };
+		F34792A81711A17C0026E121 /* SKNavigationHistoryBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNavigationHistoryBar.m; sourceTree = "<group>"; };
+		F34792A91711A17C0026E121 /* UIView+SKAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKAnimate.h"; sourceTree = "<group>"; };
+		F34792AA1711A17C0026E121 /* UIView+SKAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKAnimate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34792721711A1700026E121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34792791711A1700026E121 /* UIKit.framework in Frameworks */,
+				F347927B1711A1700026E121 /* Foundation.framework in Frameworks */,
+				F347927D1711A1700026E121 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F347926C1711A16F0026E121 = {
+			isa = PBXGroup;
+			children = (
+				F347927E1711A1700026E121 /* SKNavigationController */,
+				F34792771711A1700026E121 /* Frameworks */,
+				F34792761711A1700026E121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34792761711A1700026E121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34792751711A1700026E121 /* SKNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34792771711A1700026E121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34792781711A1700026E121 /* UIKit.framework */,
+				F347927A1711A1700026E121 /* Foundation.framework */,
+				F347927C1711A1700026E121 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F347927E1711A1700026E121 /* SKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F347929B1711A17C0026E121 /* SKNavigationController */,
+				F34792871711A1700026E121 /* AppDelegate.h */,
+				F34792881711A1700026E121 /* AppDelegate.m */,
+				F34792901711A1700026E121 /* ViewController.h */,
+				F34792911711A1700026E121 /* ViewController.m */,
+				F34792931711A1700026E121 /* ViewController.xib */,
+				F347927F1711A1700026E121 /* Supporting Files */,
+			);
+			path = SKNavigationController;
+			sourceTree = "<group>";
+		};
+		F347927F1711A1700026E121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34792801711A1700026E121 /* SKNavigationController-Info.plist */,
+				F34792811711A1700026E121 /* InfoPlist.strings */,
+				F34792841711A1700026E121 /* main.m */,
+				F34792861711A1700026E121 /* SKNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F347929B1711A17C0026E121 /* SKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F347929C1711A17C0026E121 /* img */,
+				F34792A51711A17C0026E121 /* SKNavigationController.h */,
+				F34792A61711A17C0026E121 /* SKNavigationController.m */,
+				F34792A71711A17C0026E121 /* SKNavigationHistoryBar.h */,
+				F34792A81711A17C0026E121 /* SKNavigationHistoryBar.m */,
+				F34792A91711A17C0026E121 /* UIView+SKAnimate.h */,
+				F34792AA1711A17C0026E121 /* UIView+SKAnimate.m */,
+			);
+			path = SKNavigationController;
+			sourceTree = "<group>";
+		};
+		F347929C1711A17C0026E121 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				F347929D1711A17C0026E121 /* UINavigationBarDefaultBack.png */,
+				F347929E1711A17C0026E121 /* UINavigationBarDefaultBack@2x.png */,
+				F347929F1711A17C0026E121 /* UINavigationBarDefaultBackPressed.png */,
+				F34792A01711A17C0026E121 /* UINavigationBarDefaultBackPressed@2x.png */,
+				F34792A11711A17C0026E121 /* UINavigationBarSilverBack.png */,
+				F34792A21711A17C0026E121 /* UINavigationBarSilverBack@2x.png */,
+				F34792A31711A17C0026E121 /* UINavigationBarSilverBackPressed.png */,
+				F34792A41711A17C0026E121 /* UINavigationBarSilverBackPressed@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34792741711A1700026E121 /* SKNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34792981711A1700026E121 /* Build configuration list for PBXNativeTarget "SKNavigationController" */;
+			buildPhases = (
+				F34792711711A1700026E121 /* Sources */,
+				F34792721711A1700026E121 /* Frameworks */,
+				F34792731711A1700026E121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKNavigationController;
+			productName = SKNavigationController;
+			productReference = F34792751711A1700026E121 /* SKNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F347926D1711A16F0026E121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = skizilkaya;
+			};
+			buildConfigurationList = F34792701711A16F0026E121 /* Build configuration list for PBXProject "SKNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F347926C1711A16F0026E121;
+			productRefGroup = F34792761711A1700026E121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34792741711A1700026E121 /* SKNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34792731711A1700026E121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34792831711A1700026E121 /* InfoPlist.strings in Resources */,
+				F34792951711A1700026E121 /* ViewController.xib in Resources */,
+				F34792AB1711A17C0026E121 /* UINavigationBarDefaultBack.png in Resources */,
+				F34792AC1711A17C0026E121 /* UINavigationBarDefaultBack@2x.png in Resources */,
+				F34792AD1711A17C0026E121 /* UINavigationBarDefaultBackPressed.png in Resources */,
+				F34792AE1711A17C0026E121 /* UINavigationBarDefaultBackPressed@2x.png in Resources */,
+				F34792AF1711A17C0026E121 /* UINavigationBarSilverBack.png in Resources */,
+				F34792B01711A17C0026E121 /* UINavigationBarSilverBack@2x.png in Resources */,
+				F34792B11711A17C0026E121 /* UINavigationBarSilverBackPressed.png in Resources */,
+				F34792B21711A17C0026E121 /* UINavigationBarSilverBackPressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34792711711A1700026E121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34792851711A1700026E121 /* main.m in Sources */,
+				F34792891711A1700026E121 /* AppDelegate.m in Sources */,
+				F34792921711A1700026E121 /* ViewController.m in Sources */,
+				F34792B31711A17C0026E121 /* SKNavigationController.m in Sources */,
+				F34792B41711A17C0026E121 /* SKNavigationHistoryBar.m in Sources */,
+				F34792B51711A17C0026E121 /* UIView+SKAnimate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F34792811711A1700026E121 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34792821711A1700026E121 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F34792931711A1700026E121 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34792941711A1700026E121 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34792961711A1700026E121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F34792971711A1700026E121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34792991711A1700026E121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKNavigationController/SKNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SKNavigationController/SKNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F347929A1711A1700026E121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKNavigationController/SKNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SKNavigationController/SKNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34792701711A16F0026E121 /* Build configuration list for PBXProject "SKNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34792961711A1700026E121 /* Debug */,
+				F34792971711A1700026E121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34792981711A1700026E121 /* Build configuration list for PBXNativeTarget "SKNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34792991711A1700026E121 /* Debug */,
+				F347929A1711A1700026E121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F347926D1711A16F0026E121 /* Project object */;
+}
