@@ -34,5 +34,5 @@
 - (UIImageView *)            createImageViewForViewController:(UIViewController *) viewController tag:(NSInteger) tag;
 - (UIImage *)                captureScreenInRect:(UIView *) view;
 - (UIPanGestureRecognizer *) panGestureRecognizer;
-
+- (UIImage*)                 resizeImage:(UIImage*)image size:(CGSize)size;
 @end

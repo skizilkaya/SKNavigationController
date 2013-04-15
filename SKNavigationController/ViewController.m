@@ -20,6 +20,9 @@
     self.view.backgroundColor = [UIColor colorWithRed:arc4random()%200/255.0 green:arc4random()%150/255.0 blue:arc4random()%100/255.0 alpha:1];
     button.frame = CGRectMake(arc4random() % 60, arc4random() % 40, arc4random() % 100 + 90, arc4random() % 40+ 80);
     lbl.text = [NSString stringWithFormat:@"%d",[self.navigationController.viewControllers count]];
+    if ([self.navigationController.viewControllers count] % 2 == 0) {
+        self.title = [NSString stringWithFormat:@"Test Title %@",lbl.text];
+    }
 }
 - (IBAction)selector:(id)sender {
     ViewController * v = [[[ViewController alloc] init] autorelease];

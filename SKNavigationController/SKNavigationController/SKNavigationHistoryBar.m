@@ -154,6 +154,9 @@
     UIImage * image = [self captureScreenInRect:viewController.view];
     float ratio = image.size.width/image.size.height;
     
+    image = [self resizeImage:image size:CGSizeMake(height*ratio, height)];
+    
+    
     w = (height + 5) * ratio;
     
     UIImageView * imageView = [[UIImageView alloc] init];
@@ -167,10 +170,24 @@
     _contentSize +=  w;
     [imageView addGestureRecognizer:[self panGestureRecognizer]];
     [imageView addGestureRecognizer:[[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)] autorelease]];
+    
+    if ([viewController respondsToSelector:@selector(title)] && viewController.title && ![viewController.title isEqualToString:@""]) {
+        UILabel * lbl = [[UILabel alloc] init];
+        lbl.frame = CGRectMake(0, imageView.frame.size.height - 20, imageView.frame.size.width, 20);
+        lbl.backgroundColor = [UIColor blackColor];
+        lbl.textColor = [UIColor whiteColor];
+        lbl.font = [UIFont fontWithName:@"Helvetica" size:12];
+        [lbl setTextAlignment:NSTextAlignmentCenter];
+        lbl.text = viewController.title;
+        [imageView addSubview:lbl];
+        [lbl release];
+    }
+    
+    
     return [imageView autorelease];
 }
 
-- (UIImage *)captureScreenInRect:(UIView *) view {
+- (UIImage *) captureScreenInRect:(UIView *) view {
     CALayer *layer;
     layer = view.layer;
     UIGraphicsBeginImageContext(view.bounds.size);
@@ -182,6 +199,19 @@
     return screenImage;
 }
 
+- (UIImage*) resizeImage:(UIImage*)image size:(CGSize)size {
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+        ([UIScreen mainScreen].scale == 2.0)) {
+        size = CGSizeMake(size.width*2, size.height*2);
+    } 
+    
+    UIGraphicsBeginImageContext(size);
+    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+}
 
 #pragma mark - UIGestureRecognizerDelegate
 
